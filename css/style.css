@@ -40,6 +40,10 @@ color: #2e2f42;
     color: #404bbf;
 }
 
+.header-address{
+    font-style: normal;
+}
+
 .header-address-link{
     font-weight: 400;
     font-size: 16px;
