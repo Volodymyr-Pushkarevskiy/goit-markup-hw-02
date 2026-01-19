@@ -1,4 +1,168 @@
-body    {
-    font-family: 'Roboto', sans-serif ;
-    
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #ffffff;
+    color: #434455;
 }
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+li {
+    list-style: none;
+}
+
+/* #region header */
+
+.page-header {
+
+}
+
+.page-logo {
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #2E2F42;
+    line-height: 1.16;
+
+}
+
+.page-logo-web {
+    color: #4D5AE5;
+}
+.page-nav {
+
+}
+
+.nav-list-item {
+    font-weight: 500;
+    font-size: 16px;
+    color: #2E2F42;
+    line-height: 1.5;
+}
+
+.page-address {
+
+}
+
+.address-list {
+
+}
+
+.address-list-item {
+
+}
+
+.address-list-link {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+
+
+
+/* #endregion header */
+
+/* #region hero section */
+
+.hero-section {
+    background-color: #2E2F42;
+}
+
+.hero-title {
+    font-weight: 700;
+    font-size: 56px;
+    text-align: center;
+    color: #FFFFFF;
+    line-height: 1.07143;
+}
+
+.hero-button {
+    font-weight: 500;
+    font-size: 16px;
+    color: #FFFFFF;
+    background-color: #4D5AE5;
+    line-height: 1.5;
+    cursor: pointer;
+}
+
+/* #endregion hero section */
+
+/* #region about section */
+
+.features {
+
+}
+
+.features-title {
+
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11111;
+    color: #2E2F42;
+
+}
+
+.features-list {
+
+}
+ 
+.features-list-item {
+
+}
+
+.features-list-item-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    color: #2E2F42;
+}
+
+.features-list-item-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+}
+/* #endregion about section */
+
+/* #region team section */
+
+.team-section {
+background-color: #F4F4FD;
+}
+
+.team-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11111;
+    color: #2E2F42;
+    text-align: center;
+}
+
+.team-list {
+
+}
+
+.team-list-card {
+    background-color: #FFFFFF;
+}
+
+.team-list-card-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    color: #2E2F42;
+    text-align: center;
+}
+
+.team-list-card-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+}
+
+/* #endregion team section */
