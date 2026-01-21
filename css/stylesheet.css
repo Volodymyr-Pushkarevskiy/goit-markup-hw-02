@@ -19,7 +19,7 @@ li {
 
 }
 
-.page-logo {
+.page-logo-header {
     font-family: 'Raleway', sans-serif;
     font-size: 18px;
     font-weight: 700;
@@ -29,7 +29,7 @@ li {
 
 }
 
-.page-logo-web {
+.page-logo-header-web {
     color: #4D5AE5;
 }
 .page-nav {
@@ -166,3 +166,67 @@ background-color: #F4F4FD;
 }
 
 /* #endregion team section */
+
+/* #region portfolio section */
+.portfolio-section {
+
+}
+
+.portfolio-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11111;
+    text-align: center;
+    color: #2E2F42;
+}
+
+.portfolio-list {
+    
+}
+
+.portfolio-list-card {
+
+}
+
+.portfolio-list-card-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    color: #2E2F42;
+}
+
+.portfolio-list-card-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #434455;
+}
+
+
+/* #endregion portfolio section */
+
+/* #region footer section */
+.footer-section {
+    background-color: #2E2F42;
+}
+
+.page-logo-footer {
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #F4F4FD;
+    line-height: 1.16;
+
+}
+.page-logo-footer-web {
+    color: #4D5AE5;
+}
+
+.footer-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #F4F4FD;
+}
+/* #endregion footer section */
