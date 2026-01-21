@@ -9,7 +9,7 @@ a {
     color: inherit;
 }
 
-li {
+ul {
     list-style: none;
 }
 
@@ -25,7 +25,8 @@ li {
     font-weight: 700;
     text-transform: uppercase;
     color: #2E2F42;
-    line-height: 1.16;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
 
 }
 
@@ -41,10 +42,16 @@ li {
     font-size: 16px;
     color: #2E2F42;
     line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.nav-list-item:hover,
+.nav-list-item:focus {
+    color: #404BBF;
 }
 
 .page-address {
-
+ font-style: normal;
 }
 
 .address-list {
@@ -59,9 +66,13 @@ li {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 
-
+.address-list-link:hover,
+.address-list-link:focus {
+    color: #404BBF;
+}
 
 
 /* #endregion header */
@@ -78,6 +89,7 @@ li {
     text-align: center;
     color: #FFFFFF;
     line-height: 1.07143;
+    letter-spacing: 0.02em;
 }
 
 .hero-button {
@@ -87,6 +99,12 @@ li {
     background-color: #4D5AE5;
     line-height: 1.5;
     cursor: pointer;
+    letter-spacing: 0.04em;
+}
+
+.hero-button:hover,
+.hero-button:focus {
+    background-color: #404BBF;
 }
 
 /* #endregion hero section */
@@ -103,6 +121,7 @@ li {
     font-size: 36px;
     line-height: 1.11111;
     color: #2E2F42;
+    letter-spacing: 0.02em;
 
 }
 
@@ -119,12 +138,14 @@ li {
     font-size: 20px;
     line-height: 1.2;
     color: #2E2F42;
+    letter-spacing: 0.02em;
 }
 
 .features-list-item-text {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 /* #endregion about section */
 
@@ -140,6 +161,7 @@ background-color: #F4F4FD;
     line-height: 1.11111;
     color: #2E2F42;
     text-align: center;
+    letter-spacing: 0.02em;
 }
 
 .team-list {
@@ -156,6 +178,7 @@ background-color: #F4F4FD;
     line-height: 1.2;
     color: #2E2F42;
     text-align: center;
+    letter-spacing: 0.02em;
 }
 
 .team-list-card-text {
@@ -163,6 +186,7 @@ background-color: #F4F4FD;
     font-size: 16px;
     line-height: 1.5;
     text-align: center;
+    letter-spacing: 0.02em;
 }
 
 /* #endregion team section */
@@ -178,6 +202,7 @@ background-color: #F4F4FD;
     line-height: 1.11111;
     text-align: center;
     color: #2E2F42;
+    letter-spacing: 0.02em;
 }
 
 .portfolio-list {
@@ -193,6 +218,7 @@ background-color: #F4F4FD;
     font-size: 20px;
     line-height: 1.2;
     color: #2E2F42;
+    letter-spacing: 0.02em;
 }
 
 .portfolio-list-card-text {
@@ -200,6 +226,7 @@ background-color: #F4F4FD;
     font-size: 16px;
     line-height: 1.5;
     color: #434455;
+    letter-spacing: 0.02em;
 }
 
 
@@ -216,7 +243,8 @@ background-color: #F4F4FD;
     font-weight: 700;
     text-transform: uppercase;
     color: #F4F4FD;
-    line-height: 1.16;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
 
 }
 .page-logo-footer-web {
@@ -228,5 +256,6 @@ background-color: #F4F4FD;
     font-size: 16px;
     line-height: 1.5;
     color: #F4F4FD;
+    letter-spacing: 0.02em;
 }
 /* #endregion footer section */
